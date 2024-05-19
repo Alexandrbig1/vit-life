@@ -1,5 +1,11 @@
+import Logo from "../Logo/Logo";
+
 function Footer() {
-  return <div>footer</div>;
+  return (
+    <div>
+      <Logo />
+    </div>
+  );
 }
 
 export default Footer;

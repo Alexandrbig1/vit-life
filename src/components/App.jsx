@@ -50,7 +50,12 @@ function App() {
 
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<RootLayout />}>
+      <Route
+        path="/"
+        element={
+          <RootLayout toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
+        }
+      >
         <Route
           index
           element={<Home toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />}

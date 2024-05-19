@@ -4,10 +4,11 @@ import Loader from "../components/Loader/Loader";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
-function RootLayout() {
+// eslint-disable-next-line react/prop-types
+function RootLayout({ toggleTheme, isDarkTheme }) {
   return (
     <div>
-      <Header />
+      <Header toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
       <Suspense fallback={<Loader />}>
         <Outlet />
       </Suspense>
