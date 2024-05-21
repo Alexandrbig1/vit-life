@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  /* width: 100%;
+  width: 100%;
   max-width: 375px;
   position: relative;
   margin: 0 auto;
@@ -14,5 +14,5 @@ export const Container = styled.div`
   @media (min-width: 1440px) {
     max-width: 1440px;
     padding: 2.4rem 3.2rem;
-  } */
+  }
 `;

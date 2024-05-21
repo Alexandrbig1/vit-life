@@ -16,11 +16,15 @@ const theme = {
   light: {
     colors: {
       mainBgColor: "#f9f9f9",
+      mainTextColor: "#020617",
+      headerTextColor: "#020617",
     },
   },
   dark: {
     colors: {
       mainBgColor: "#333",
+      mainTextColor: "#f8fafc",
+      headerTextColor: "#f8fafc",
     },
   },
 };
