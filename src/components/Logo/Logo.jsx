@@ -1,10 +1,10 @@
-import { LogoContainer, LogoIcon } from "./Logo.styled";
+import { LogoContainer, LogoIcon, LogoText } from "./Logo.styled";
 
 function Logo() {
   return (
     <LogoContainer>
       <LogoIcon />
-      <span>VitLife</span>
+      <LogoText>VitLife</LogoText>
     </LogoContainer>
   );
 }

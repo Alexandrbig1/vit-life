@@ -11,9 +11,13 @@ export const HeaderContainer = styled.header`
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
   width: 100%;
   max-width: 375px;
   margin: 0 auto;
+  background-color: lightblue;
 
   @media (min-width: 768px) {
     max-width: 768px;
