@@ -80,6 +80,9 @@ export const AboutItemCardIcon = styled.div`
   background-color: ${(p) => p.theme.colors.mainBgColor};
   z-index: 3;
   border-radius: 50rem;
+
+  border-top: 1px solid ${(p) => p.theme.colors.accentColor};
+  border-right: 1px solid ${(p) => p.theme.colors.accentColor};
 `;
 
 export const AboutItemCardIconWrapper = styled.div`

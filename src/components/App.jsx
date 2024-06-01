@@ -17,6 +17,7 @@ const theme = {
     colors: {
       mainBgColor: "#f9f9f9",
       mainTextColor: "#020617",
+      secondaryTextColor: "#606060",
       headerTextColor: "#020617",
       accentColor: "#00CC99",
     },
@@ -25,6 +26,7 @@ const theme = {
     colors: {
       mainBgColor: "#333",
       mainTextColor: "#f8fafc",
+      secondaryTextColor: "#B0B0B0",
       headerTextColor: "#f8fafc",
       accentColor: "#6600FF",
     },

@@ -1,0 +1,45 @@
+[
+  {
+    "id": 123456,
+    "pictures": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "sale": true,
+    "salePrice": 19.99,
+    "name": "Vitamin D Supplement",
+    "description": "High-quality Vitamin D supplement to support bone and immune health.",
+    "price": 24.99
+  },
+  {
+    "id": 234567,
+    "pictures": [
+      "https://example.com/image3.jpg",
+      "https://example.com/image4.jpg"
+    ],
+    "sale": false,
+    "name": "Omega-3 Fish Oil",
+    "description": "Premium Omega-3 Fish Oil for heart and brain health.",
+    "price": 29.99
+  },
+  {
+    "id": 345678,
+    "pictures": ["https://example.com/image5.jpg"],
+    "sale": true,
+    "salePrice": 14.99,
+    "name": "Vitamin C Tablets",
+    "description": "Vitamin C tablets to boost your immune system and overall health.",
+    "price": 19.99
+  },
+  {
+    "id": 456789,
+    "pictures": [
+      "https://example.com/image6.jpg",
+      "https://example.com/image7.jpg"
+    ],
+    "sale": false,
+    "name": "Whey Protein Powder",
+    "description": "High-quality whey protein powder to support muscle growth and recovery.",
+    "price": 39.99
+  }
+]
