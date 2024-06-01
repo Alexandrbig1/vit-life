@@ -37,12 +37,12 @@ export const AboutItem = styled.li`
 
   &:nth-child(2) {
     border-radius: 37% 63% 41% 59% / 57% 29% 71% 43%;
-    border-top: 0.4px solid ${(p) => p.theme.colors.accentColor};
+    border-bottom: 0.4px solid ${(p) => p.theme.colors.accentColor};
   }
 
   &:nth-child(3) {
     border-radius: 91% 15% 85% 9% / 37% 63% 20% 80%;
-    border-bottom: 1px solid ${(p) => p.theme.colors.accentColor};
+    border-right: 1px solid ${(p) => p.theme.colors.accentColor};
   }
 `;
 
