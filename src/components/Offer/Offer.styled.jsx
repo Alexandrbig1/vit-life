@@ -1,6 +1,13 @@
 import styled from "styled-components";
 import { primaryFont } from "../fonts";
 
+export const OfferWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const OfferTitle = styled.h2`
   font-size: 2.4rem;
   font-family: ${primaryFont};
@@ -8,6 +15,7 @@ export const OfferTitle = styled.h2`
   text-align: center;
   line-height: 1.33333;
   color: ${(p) => p.theme.colors.mainTextColor};
+  margin-bottom: 1.2rem;
 `;
 
 export const OfferText = styled.p`

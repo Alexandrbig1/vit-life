@@ -3,12 +3,13 @@ import {
   OfferMenuItem,
   OfferText,
   OfferTitle,
+  OfferWrapper,
 } from "./Offer.styled";
 import products from "../../../data/products.json";
 
 function Offer() {
   return (
-    <div>
+    <OfferWrapper>
       <OfferTitle>BEST-SELLERS</OfferTitle>
       <OfferText>Innovating Sports Nutrition Since 1998</OfferText>
       <div>
@@ -31,7 +32,7 @@ function Offer() {
           })}
         </OfferMenu>
       </div>
-    </div>
+    </OfferWrapper>
   );
 }
 
