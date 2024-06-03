@@ -22,7 +22,7 @@ function Header({ toggleTheme, isDarkTheme }) {
             </li>
             <li>
               <HeaderProductsWrapper>
-                <HeaderNavLinks>products</HeaderNavLinks>
+                <HeaderNavLinks $product={true}>products</HeaderNavLinks>
                 <HeaderDropdownIcon />
               </HeaderProductsWrapper>
             </li>
