@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { SiAdafruit } from "react-icons/si";
 import { primaryFont } from "../fonts";
 
-export const LogoContainer = styled.div`
+export const LogoContainer = styled.a`
   display: flex;
   align-items: center;
   gap: 0.8rem;

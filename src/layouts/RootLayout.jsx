@@ -12,9 +12,15 @@ function RootLayout({ toggleTheme, isDarkTheme }) {
       {/* <Container> */}
       <Header toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
       {/* </Container> */}
-      <Suspense fallback={<Loader />}>
-        <Outlet />
-      </Suspense>
+      <div
+        style={{
+          marginTop: "6.4rem",
+        }}
+      >
+        <Suspense fallback={<Loader />}>
+          <Outlet />
+        </Suspense>
+      </div>
       <Footer />
     </div>
   );

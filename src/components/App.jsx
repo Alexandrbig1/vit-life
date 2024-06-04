@@ -4,13 +4,13 @@ import "react-toastify/dist/ReactToastify.css";
 import { lazy, useState } from "react";
 import { GlobalStyle } from "./GlobalStyle";
 import FontsHelmet from "./FontsHelmet";
+import RootLayout from "../layouts/RootLayout";
 import {
   Route,
   RouterProvider,
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import RootLayout from "../layouts/RootLayout";
 
 const theme = {
   light: {
@@ -38,6 +38,11 @@ const theme = {
 };
 
 const Home = lazy(() => import("../pages/Home/Home"));
+const About = lazy(() => import("../pages/About/About"));
+const Apparel = lazy(() => import("../pages/Apparel/Apparel"));
+const Join = lazy(() => import("../pages/Join/Join"));
+const Sale = lazy(() => import("../pages/Sale/Sale"));
+const Products = lazy(() => import("../pages/Products/Products"));
 const NotFound = lazy(() => import("../pages/NotFound/NotFound"));
 const Privacy = lazy(() => import("../pages/Privacy/Privacy"));
 const Terms = lazy(() => import("../pages/Terms/Terms"));
@@ -72,6 +77,11 @@ function App() {
           index
           element={<Home toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />}
         />
+        <Route path="about" element={<About />} />
+        <Route path="sale" element={<Sale />} />
+        <Route path="join_us" element={<Join />} />
+        <Route path="apparel" element={<Apparel />} />
+        <Route path="products" element={<Products />} />
         <Route
           path="privacy"
           element={
