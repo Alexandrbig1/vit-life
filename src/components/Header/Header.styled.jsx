@@ -106,8 +106,6 @@ export const HeaderDropdownIcon = styled(IoMdArrowDropdown)`
 `;
 
 export const HeaderProductsDropdown = styled.ul`
-  /* opacity: 0; */
-  /* pointer-events: none; */
   position: absolute;
   top: 2.4rem;
   left: 50%;

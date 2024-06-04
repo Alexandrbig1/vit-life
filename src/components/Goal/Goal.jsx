@@ -1,10 +1,11 @@
-import { OfferText, OfferTitle } from "../Offer/Offer.styled";
+import { OfferText } from "../Offer/Offer.styled";
+import Title from "../ui/SectionTitle";
 import { GoalMenu, GoalWrapper } from "./Goal.styled";
 
 function Goal() {
   return (
     <GoalWrapper>
-      <OfferTitle>CHOOSE YOUR GOAL</OfferTitle>
+      <Title>CHOOSE YOUR GOAL</Title>
       <OfferText>Find The Products To Help You Reach It</OfferText>
       <GoalMenu>
         <li>

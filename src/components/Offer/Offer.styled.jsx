@@ -8,16 +8,6 @@ export const OfferWrapper = styled.div`
   align-items: center;
 `;
 
-export const OfferTitle = styled.h2`
-  font-size: 2.4rem;
-  font-family: ${primaryFont};
-  font-weight: 700;
-  text-align: center;
-  line-height: 1.33333;
-  color: ${(p) => p.theme.colors.mainTextColor};
-  margin-bottom: 1.2rem;
-`;
-
 export const OfferText = styled.p`
   font-size: 1.8rem;
   font-family: ${primaryFont};

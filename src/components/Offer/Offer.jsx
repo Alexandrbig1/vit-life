@@ -1,16 +1,16 @@
+import products from "../../../data/products.json";
+import Title from "../ui/SectionTitle";
 import {
   OfferMenu,
   OfferMenuItem,
   OfferText,
-  OfferTitle,
   OfferWrapper,
 } from "./Offer.styled";
-import products from "../../../data/products.json";
 
 function Offer() {
   return (
     <OfferWrapper>
-      <OfferTitle>BEST-SELLERS</OfferTitle>
+      <Title>BEST-SELLERS</Title>
       <OfferText>Innovating Sports Nutrition Since 1998</OfferText>
       <div>
         <OfferMenu>
